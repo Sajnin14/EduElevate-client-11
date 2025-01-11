@@ -46,7 +46,8 @@ const AllServices = () => {
                         clipRule="evenodd" />
                 </svg>
             </label>
-            <div className="w-3/4 mx-auto space-y-10 my-16">
+
+            <div className="my-16 grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {
                     loaderData.map(service => <Services key={service._id} service={service}></Services>)
                 }

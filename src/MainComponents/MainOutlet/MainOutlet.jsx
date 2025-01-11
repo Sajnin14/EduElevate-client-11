@@ -5,10 +5,12 @@ import Footer from "../Footer/Footer";
 
 const MainOutlet = () => {
     return (
-        <div className="w-11/12 mx-auto space-y-10">
+        <div>
             <Navbar></Navbar>
-            <Outlet></Outlet>
-            <Footer></Footer>   
+            <div className="w-11/12 mx-auto space-y-10">
+                <Outlet></Outlet>
+            </div>
+            <Footer></Footer>
         </div>
     );
 };

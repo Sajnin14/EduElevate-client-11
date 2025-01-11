@@ -8,12 +8,12 @@ const Services = ({ service }) => {
     const finalDes =
         description?.length > maxLength ? description.substring(0, 97) + '...' : description;
     return (
-        <div key={service._id} className="flex gap-4 bg-base-100 shadow-xl p-3 mb-5">
+        <div key={service._id} className="rounded-lg bg-base-100 shadow-xl p-3">
             <figure>
                 <img
-                    src={service.cover} className="w-56 h-full rounded-lg" />
+                    src={service.cover} className="w-2/3 mx-auto  h-72  rounded-lg object-cover" />
             </figure>
-            <div className="">
+            <div className="p-5 space-y-1 flex flex-col">
                 <h2 className="card-title">{service.bookName}</h2>
                 <p className="text-start">{finalDes}</p>
                  
@@ -28,8 +28,8 @@ const Services = ({ service }) => {
 
                     <p className='font-semibold text-lg'>Price: {service.price} tk</p>
                     <p>{service.area}</p>
-                    <Link to={`/service/${service._id}`}> <button className='btn bg-[#1E4463] text-base-100'>View details</button></Link>
-                
+                    <Link to={`/service/${service._id}`} className='mt-auto inline-block'> <button className='btn bg-[#1E4463] text-base-100'>View details</button></Link>
+            
             </div>
             
         </div>
