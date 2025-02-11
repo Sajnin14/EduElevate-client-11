@@ -5,7 +5,7 @@
                     new and old books);
                   
 Overview: EduElevate is a React-based book-selling platform where users can list books for sale, manage their listings, and browse available books. It uses React Context API for state 
-          management and includes user authentication, book management, shopping cart, and checkout functionality.
+          management and includes user authentication, book management, shopping cart, and checkout functionality
 
 Live Site URL : https://assessment-11.web.app 
 
