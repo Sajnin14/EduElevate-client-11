@@ -18,7 +18,7 @@ const Popular = () => {
 
 
     return (
-        <div className="mx-auto">
+        <div id="popularServices" className="mx-auto">
 
             <h3 className="font-bold text-3xl my-2 text-center text-[#1E4463]"> Popular Deal</h3>
             <p className='italic text-center'>Buy your books at a budget friendly price</p>

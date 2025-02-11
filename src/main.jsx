@@ -23,6 +23,7 @@ import UpdateService from './Pages/UpdateService';
 import Academic from './Extra/Academic';
 import Skill from './Extra/Skill';
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         path: '/',
         element: <Home></Home>
       },
+      // {
+      //   path: '/popularServices',
+      //   element: <Popular></Popular>
+      // },
 
       {
         path: '/addServices',

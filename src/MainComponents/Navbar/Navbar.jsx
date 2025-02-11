@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink} from "react-router-dom";
 import './Navbar.css'
 import UseAuth from "../../AuthProvider/UseAuth";
 import { IoPersonCircleOutline } from "react-icons/io5";
@@ -7,7 +7,11 @@ const Navbar = () => {
     const { user, logOut, changeTheme } = UseAuth();
     const links = <div className="flex flex-col lg:flex-row gap-3 items-center font-semibold mr-2">
         <NavLink to='/'>Home</NavLink>
-        <NavLink to='/services'>Services</NavLink>
+        <a href="#popularServices">Servicces</a>
+        
+        {/* <NavLink to='/#popularServices' className={({isActive}) => {
+           isActive && location.hash === '#popularServices' ? 'active' : ''
+        }}>Popular Services</NavLink> */}
     </div>
 
     const subLink = <div className="flex flex-col gap-3 font-semibold overflow-visible absolute z-50 bg-base-100 p-3 rounded-xl">

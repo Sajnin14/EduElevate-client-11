@@ -33,10 +33,7 @@ const handleStatus = (e, id) => {
             .then(() => Swal.fire("status has been changed!"))
     }
 
-    // axios.patch(`https://server-side-taupe-beta.vercel.app/purchaseServices/${id}`, data, {withCredentials: true})
-    //     .then(() => {
-    //         Swal.fire("status has been changed!");
-    //     })
+   
 }
 return (
     <div>
