@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Course = () => {
     return (
-        <div>
+        <div id="courses">
             <h3 className="font-bold text-3xl my-2 text-center text-[#1E4463]">Our Courses</h3>
             <p className='italic text-center'>Learn, Grow, Succeed – Courses Crafted for Your Journey!</p>
 

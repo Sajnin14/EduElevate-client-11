@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const AboutUs = () => {
     return (
-        <div>
+        <div id="about">
             <h3 className="font-bold text-3xl my-2 text-center text-[#1E4463]">Unveiling You and Me</h3>
             <p className='italic text-center'>Discovering strengths, building connections, and growing together through learning and understanding!</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-7 my-6"></div>

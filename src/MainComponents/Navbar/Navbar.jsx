@@ -6,8 +6,10 @@ import { IoPersonCircleOutline } from "react-icons/io5";
 const Navbar = () => {
     const { user, logOut, changeTheme } = UseAuth();
     const links = <div className="flex flex-col lg:flex-row gap-3 items-center font-semibold mr-2">
-        <NavLink to='/'>Home</NavLink>
-        <a href="#popularServices">Servicces</a>
+        <li><a href="/">Home</a></li>
+        <li><a href="/#popularServices">Services</a></li>
+        <li><a href="/#courses">Courses</a></li>
+        <li><a href="/#about">About Us</a></li>
         
         {/* <NavLink to='/#popularServices' className={({isActive}) => {
            isActive && location.hash === '#popularServices' ? 'active' : ''
