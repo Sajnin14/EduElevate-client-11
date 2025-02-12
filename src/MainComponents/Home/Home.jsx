@@ -8,7 +8,7 @@ import Reviews from "./Reviews";
 const Home = () => {
     useTitle("home");
     return (
-        <div className="space-y-10">
+        <div className="space-y-20">
             <Banner></Banner>
             <Popular></Popular>
             <Course></Course>

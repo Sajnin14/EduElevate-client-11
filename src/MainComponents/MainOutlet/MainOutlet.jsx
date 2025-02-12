@@ -9,7 +9,7 @@ const MainOutlet = () => {
         <div>
             <Navbar></Navbar>
             <ScrollToSection></ScrollToSection>
-            <div className="w-11/12 mx-auto space-y-10">
+            <div className="w-11/12 mx-auto space-y-16">
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>

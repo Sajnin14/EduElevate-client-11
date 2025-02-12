@@ -3,7 +3,7 @@ import { GrLinkedinOption } from "react-icons/gr";
 const Footer = () => {
     return (
         <div>
-        <footer className="footer footer-center bg-gray-900 p-10 mt-10 text-gray-300">
+        <footer className="footer footer-center bg-gray-900 p-10 mt-20 text-gray-300">
             <aside>
                 <img src="https://i.ibb.co.com/c1m6Lv6/judicial-quill-writing-on-open-book-judgment-certificate-or-police-document-education-book-quill-tem.jpg" className="rounded-3xl w-24 h-24" />
                 <h2 className="font-bold text-3xl text-base-200">
