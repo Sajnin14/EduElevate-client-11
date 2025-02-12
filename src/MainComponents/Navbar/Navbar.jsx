@@ -10,6 +10,7 @@ const Navbar = () => {
         <li><a href="/#popularServices">Services</a></li>
         <li><a href="/#courses">Courses</a></li>
         <li><a href="/#about">About Us</a></li>
+        <li><a href="/#review">Reviews</a></li>
         
         {/* <NavLink to='/#popularServices' className={({isActive}) => {
            isActive && location.hash === '#popularServices' ? 'active' : ''

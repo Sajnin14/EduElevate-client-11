@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "username": "rahim_ahmed",
+      "review": "Amazing experience! The product quality exceeded my expectations.",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "username": "sadia_islam",
+      "review": "Good service, but the delivery took longer than expected.",
+      "image": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "username": "mehedi_hasan",
+      "review": "Absolutely love it! Would definitely recommend to others.",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "username": "nusrat_jahan",
+      "review": "The quality was decent, but I found better alternatives.",
+      "image": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 5,
+      "username": "tanvir_hossain",
+      "review": "Great value for money. Will buy again!",
+      "image": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "username": "ayesha_akter",
+      "review": "Not satisfied with the product. It didn’t match the description.",
+      "image": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 7,
+      "username": "fahim_chowdhury",
+      "review": "Customer support was helpful, but the item had minor defects.",
+      "image": "https://randomuser.me/api/portraits/men/7.jpg"
+    }
+  ]
+  

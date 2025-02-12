@@ -7,7 +7,7 @@ const PrivateRoute = ({children}) => {
     const {user, loading} = UseAuth();
 
     if(loading){
-        return <div className="w-2/4 mx-auto flex justify-center">
+        return <div className="w-2/4 min-h-screen mx-auto flex justify-center">
             <span className="loading loading-spinner loading-lg"></span>
         </div>
     }
