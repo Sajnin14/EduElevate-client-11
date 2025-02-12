@@ -47,7 +47,7 @@ const AllServices = () => {
                 </svg>
             </label>
 
-            <div className="my-16 grid grid-cols md:grid-cols-2 lg:grid-cols-3 gap-3">
+            <div className="my-16 grid grid-cols md:grid-cols-2 lg:grid-cols-4 gap-3">
                 {
                     loaderData.map(service => <Services key={service._id} service={service}></Services>)
                 }

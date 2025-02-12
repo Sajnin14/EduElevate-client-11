@@ -21,7 +21,7 @@ const Reviews = () => {
 
     return (
         <div id="review" className="mx-auto">
-            <h3 className="font-bold text-3xl my-2 text-center text-[#1E4463]">Reviews</h3>
+            <h3 className="font-bold text-3xl my-2 text-center text-[#1E4463]">Customer Reviews</h3>
             <p className='italic text-center'>Helping You Decide, One Review at a Time.</p>
 
             <Swiper navigation={true} modules={[Navigation]} className="mySwiper mt-12">
